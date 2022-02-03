@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    background-color: black !important;
+    color: white !important;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.webgl
+{
+    position: fixed;
+    top: 6%;
+    left: 0;
+    outline: none;
+}
+#score {
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    font-size: 30px;
+    width: 100%
+}
+.new-game {
+    margin-top: 1%;
+    margin-left: 20%;
+    font-weight:bold
+}
+.new-game:hover {
+    cursor:pointer
+}
+.score-content {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 1%;
+}

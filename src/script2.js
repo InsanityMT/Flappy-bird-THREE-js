@@ -1,0 +1,4 @@
+
+function newGame(){
+    location.reload();
+}
